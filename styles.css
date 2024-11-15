@@ -1,0 +1,71 @@
+.bg-image-1 {
+  background-image: url('./assets/pop1.jpg');
+  /* Replace 'your-image.jpg' with your actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 452px;
+  width: 250px;
+
+}
+
+.bg-image-2 {
+  background-image: url('./assets/pop2.jpg');
+  /* Replace 'your-image.jpg' with your actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 452px;
+  width: 250px;
+
+}
+
+.bg-image-3 {
+  background-image: url('./assets/pop3.jpg');
+  /* Replace 'your-image.jpg' with your actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 452px;
+  width: 250px;
+
+}
+
+.bg-image-4 {
+  background-image: url('./assets/pop4.jpg');
+  /* Replace 'your-image.jpg' with your actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 452px;
+  width: 250px;
+
+}
+
+.btn-primary-1 {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+
+.btn-primary-2 {
+  cursor: pointer;
+  padding: 12px 24px;
+  background-color: #2091F9;
+  border-color: #2091F9;
+  color: #fff;
+  width: 260px;
+}
+
+@media (max-width: 700px) {
+  .btn-primary-2 {
+    display: none;
+  }
+}
+
+.btn-primary-21 {
+  cursor: pointer;
+  padding: 12px 24px;
+  background-color: #2091F9;
+  border-color: #2091F9;
+  color: #fff;
+  width: 260px;
+}
