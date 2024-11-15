@@ -1,0 +1,113 @@
+@media (max-width: 768px){
+    .rounded-circle{
+      display: none;
+    }
+
+    .fw-bold1{
+      display: none;
+    }
+    }
+
+   @media (min-width: 755px){
+    .fw-bold {
+      display: none;
+    }
+    .mb-0{
+        color: #737373;
+    }
+    .responsive-contact{
+        align-items: center
+        padding-left: 150px;;
+        
+    }
+  }
+
+   footer{
+    background-color: #252B42;
+   }
+
+   @media (max-width: 755px) {
+    .responsive-contact {
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: center; 
+      text-align: center; 
+      margin: 0 auto; 
+    }
+  }
+
+
+ 
+.footer-bottom {
+    background-color: #FAFAFA; 
+  }
+
+  .footer-bottom p {
+    color: #737373; 
+  }
+  
+  
+  @media (max-width: 755px) {
+    .footer-bottom {
+      background-color: #252B42;
+    }
+  
+    .footer-bottom p {
+      color: white; 
+    }
+  
+    .footer-bottom a img {
+      filter: invert(100%);
+    }
+
+    .footer-bottom p {
+        color: white; 
+      }
+
+      .footer-bottom a img[alt="Facebook"] {
+        filter: brightness(0) saturate(100%) invert(29%) sepia(86%) saturate(2550%) hue-rotate(206deg) brightness(99%) contrast(100%);
+      }
+    
+      
+      .footer-bottom a img[alt="Instagram"] {
+        filter: brightness(0) saturate(100%) invert(36%) sepia(74%) saturate(3596%) hue-rotate(327deg) brightness(96%) contrast(96%);
+      }
+    
+      
+      .footer-bottom a img[alt="Twitter"] {
+        filter: brightness(0) saturate(100%) invert(58%) sepia(82%) saturate(1596%) hue-rotate(176deg) brightness(91%) contrast(100%);
+      }
+  }
+  
+
+  .footer-bottom .container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+  }
+
+
+  @media (max-width: 755px) {
+    .footer-bottom .container {
+      flex-direction: column; 
+      align-items: center; 
+      text-align: center; 
+    }
+  
+    .footer-bottom p {
+      margin-bottom: 15px; 
+    }
+  
+    .footer-bottom div {
+      display: flex;
+      justify-content: center; 
+      gap: 15px; 
+    }
+  }
+
+
+ 
+ 
+  
